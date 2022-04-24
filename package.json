@@ -1,14 +1,18 @@
 {
   "name": "website",
+  "homepage": "https://github.com/Prasann97/website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
+    "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "^2.1.3"
   },
   "scripts": {
+    "predeploye" : "npm run build",
+    "deploye" : "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
